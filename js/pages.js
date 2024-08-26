@@ -342,11 +342,6 @@ function createFile_kuy() {
     window.URL.revokeObjectURL(url);
 }
 
-async function savepass(teknik, group, color) {
-    let reqBody = { teknik: teknik, grupp: group, color: color }
-    console.log(JSON.stringify(reqBody));
-
-}
 
 function search_kuy() {
     clear_all();
